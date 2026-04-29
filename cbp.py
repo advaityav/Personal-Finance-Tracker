@@ -15,7 +15,7 @@ class FinanceApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Personal Finance Manager Pro")
+        self.title("Personal Finance Tracker")
         self.geometry("750x950")
         self.file_path = "finance_data.json"
 
